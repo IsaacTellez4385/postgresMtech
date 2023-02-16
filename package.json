@@ -1,0 +1,15 @@
+{
+  "name": "postgresdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {"node": "19.5.0"},
+  "scripts": {
+    "start":"cd Backend && npm start ",
+    "build": "cd Backend && npm i && cd ../Client && npm i && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
