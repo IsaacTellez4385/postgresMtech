@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
     res.send('hello')
 })
 
-app.get('/getUsers', db.getUsers)
+// app.get('/getUsers', db.getUsers)
 
 app.post('/login', passport.authenticate('local', { failureMessage:'not good', failureRedirect:'/'}), (req, res) => {
     res.send('Authorized')
